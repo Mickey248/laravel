@@ -1,3 +1,4 @@
+
 <?php
 
 namespace App\Http\Controllers\Auth;
@@ -60,6 +61,7 @@ class RegisterController extends Controller
      * @param  array  $data
      * @return \App\User
      */
+    //creat a register
     protected function create(array $data)
     {
         return User::create([
